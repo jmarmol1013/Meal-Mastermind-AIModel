@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.python-version
+
+# Packages
+lib/
+bin/
+include/
+pyvenv.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Environment variables file
+.env
+
+# Dataset, model files, and large files
+*.csv
+*.xls
+*.xlsx
+*.json
+*.joblib
+*.pkl
+data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# pytest, coverage, and other tool artifacts
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
