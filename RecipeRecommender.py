@@ -1,7 +1,7 @@
 from sklearn.neighbors import NearestNeighbors
 
 class RecipeRecommender:
-    def __init__(self, n_neighbors=3, metric='cosine'):
+    def __init__(self, n_neighbors=4, metric='cosine'):
         self.knn_model = NearestNeighbors(n_neighbors=n_neighbors, metric=metric)
         self.recipes = None
         self.X_cv = None
@@ -26,6 +26,4 @@ class RecipeRecommender:
                 recommendation = {"title": recommended_title, "allergies": allergies}
                 recommendations.append(recommendation)
 
-                return recommendations
-
-        return
+        return recommendations
