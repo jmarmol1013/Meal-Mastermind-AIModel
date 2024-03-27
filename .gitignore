@@ -24,7 +24,7 @@ pyvenv.cfg
 .vscode/
 
 # Environment variables file
-.env
+.env*
 
 # Dataset, model files, and large files
 *.csv
