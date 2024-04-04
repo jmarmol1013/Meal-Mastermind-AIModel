@@ -31,7 +31,6 @@ pyvenv.cfg
 *.xls
 *.xlsx
 *.json
-*.joblib
 *.pkl
 data/
 
@@ -54,4 +53,3 @@ build/
 dist/
 *.egg-info/
 *.egg
-fly.toml
